@@ -1,0 +1,13 @@
+TimeLine:
+
+  [X] - Iniciar o botao em modo AP para configuracao na rede domestica;
+  [X] - Apos informar os dados da rede domestica reiniciar o botao, ja conectando na rede domestica informada;
+  [X] - Realizar operacoes ( Enviar e receber comandos da placa) via MQTT;
+  [ ] - Adicionar logica para redirecionar o botao para a pagina da aplicacao (pagina que envia e recebe dados MQTT)
+        somente se os dados da rede domestica informados pelo usuario forem validos (e.g: testar se conecta na rede primeiro, se sim redireciona a pagina, senao informa o erro e pede os dados novamente);
+  [ ] - Adicionar o "botao" a placa e testar o envio de comandos via MQTT se e somente o botao for pressionado;
+  [ ] - Adicionar politicas de seguranca para pressionar o botao;
+  [ ] - Adicionar um modo "sleep" para economizar energia do botao;
+  [ ] - Adicionar um modulo de pilha AA para gerar energia ao botao;
+  [ ] - Adicionar politica de identificacao do botao na pagina que recebe as requisicoes (e.g: pagina de e-commerce);
+  [ ] - Criar pagina teste de e-commerce para realizar uma compra teste atraves do botao;
